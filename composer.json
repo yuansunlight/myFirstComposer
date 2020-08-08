@@ -1,0 +1,18 @@
+{
+    "name": "yuanzhipeng/my-composer",
+    "description": "test for yzp.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuan ZP",
+            "email": "phper.green@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "YuanZP\\myComposer\\": "./src"
+        }
+    }
+}
